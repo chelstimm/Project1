@@ -1,6 +1,7 @@
 # Project1 
 
 Link to project: https://chelstimm.github.io/Project1/
+
 'listlo' is an API-powered web application that pulls data from multiple sources
 
 ## Code Featured Utilizes: ##
