@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--     Fonts and icons     -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script> -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest-core.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest-core.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>listlo</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <a href="index.html" class="navbar-brand"><i class="fa fa-list-alt"></i> listlo</a>
+        <!-- <img src="assets/images/listlo.png" width="30" height="30" class="d-inline-block align-top"
+                    alt="">  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deals.html">Deals</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="map.html">Map</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="creator.html">Creators</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="title">
+            <br>
+            <h1>Get directions to your low priced item!</h1>
+            <br>
+        </div>
+    </div>
+
+    <br>
+    <div id="map"></div>
+    <br>
+
+    <footer class="footer fixed-bottom">
+            <div class="container">
+                <div id="ftr-wrap">
+                    <ul class="footer-nav auto">
+                        <li><a href="https://github.com/jasonharris06">Jason Harris</a></li>
+                        <li><a href="https://github.com/chelstimm">Chelsey Timmerman</a></li>
+                        <li><a href="https://github.com/Lindseyloo">Lindsey Smith</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+
+</body>
+
+</html>
